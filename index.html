@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+			
+			<div class="info">
+				<h4 class="infoText">Tic Tac Toe Game</h2>
+				<div class="playerButton">
+					<button class="player btn btn-secondary" id="p1">One Player</button>
+					<button class="player btn btn-secondary" id="p2">Two Players</button>
+				</div>
+			
+			</div>
+			<div class="cpu">
+				<h4 class="infoText">Would you like to be X or O?</h2>
+				<div class="playerButton">
+					<button class="player playcom btn btn-secondary" id="x">X</button>
+					<button class="player playcom btn btn-secondary" id="o">O</button> 
+				</div>
+			</div>
+
+			<div class="game">
+				<div class="player2">
+					<div class="playerText">
+						<div id="player1"></div>
+						<div id="player2"></div>
+					</div>
+					<div class="playerTurn"></div>
+				</div>
+				
+				<div class="row">
+					<div class="cell" id="1"></div>
+					<div class="cell" id="2"></div>
+					<div class="cell" id="3"></div>
+				</div>				
+				<div class="row">
+					<div class="cell" id="4"></div>
+					<div class="cell" id="5"></div>
+					<div class="cell" id="6"></div>
+				</div>				
+				<div class="row">
+					<div class="cell" id="7"></div>
+					<div class="cell" id="8"></div>
+					<div class="cell" id="9"></div>
+				</div>
+				<button type="button" class="btn btn-danger" id="restart">Restart</button>
+			</div>
+
+			
+
+		</div>
+	</div>
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+	<script  id="data" type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>
